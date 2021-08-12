@@ -63,7 +63,7 @@ function timeElapse(date){
 	var diff=Date.parse(current) - Date.parse(date);//时间差的毫秒数
 
     //计算出相差天数
-    var days=Math.floor(diff/(24*3600*1000))+28;
+    var days=Math.floor(diff/(24*3600*1000))+29;
 
     //计算出小时数
     var leave1=diff%(24*3600*1000);    //计算天数后剩余的毫秒数
